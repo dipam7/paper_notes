@@ -22,6 +22,8 @@ Then at each subsequent stage, you remove 1 token from CoT and the model is fine
 
 Before seeing the above example I thought this method is really smart but the way they remove a token at every stage seems suboptimal
 
+Interesting that I read [this article](https://www.answer.ai/posts/2024-07-25-transformers-as-matchers.html) on the same day which also uses multiplication as a way of trying to show LLMs don't reason but just cache reason (pattern match)
+
 TODOs:
 - [ ] Check GSM8K dataset
 - [ ] Checkout papers [6], [14] and [19] from references
